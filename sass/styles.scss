@@ -1,0 +1,31 @@
+/* ==========================================
+   Breakpoints Responsive
+
+   Celular : 0px - 767px
+   Tablet  : 768px - 991px
+   PC      : 992px en adelante
+
+========================================== */
+
+/* para compilar:
+
+sass --watch sass/styles.scss css/styles.css */
+
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+@import "base/reset";
+@import "base/base";
+@import "base/typography";
+
+@import "components/buttons";
+@import "components/cards";
+@import "components/navbar";
+
+@import "layout/header";
+@import "layout/hero";
+@import "layout/footer";
+
+@import "pages/home";
+
+@import "responsive/media";

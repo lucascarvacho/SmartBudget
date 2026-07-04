@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart budget</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark main-nav">
+            <div class="container-fluid">
+                <a class="navbar-brand main-nav__brand" href="#">Smart budget</a>
+                <button class="navbar-toggler main-nav__toggle" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon main-nav__toggle-icon"></span>
+
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 main-nav__list">
+                        <li class="nav-item main-nav__item">
+                            <a class="nav-link main-nav__link" aria-current="page" href="#">Productos y servicios </a>
+                        </li>
+                        <li class="nav-item main-nav__item">
+                            <a class="nav-link main-nav__link" href="#">Seguros</a>
+                        </li>
+                        <li class="nav-item main-nav__item">
+                            <a class="nav-link main-nav__link" href="#">Inversiones</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex main-nav__actions">
+                        <button type="button"
+                            class="btn btn-outline-success main-nav__button main-nav__button--client">Hazte
+                            cliente</button>
+                        <button type="button" class="btn btn-primary main-nav__button main-nav__button--login">Iniciar
+                            sesión</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__content">
+                <h2 class="hero__title">Crédito de Consumo</h2>
+                <p class="hero__text">Financia tus metas personales con montos a tu medida, plazos convenientes y una
+                    experiencia 100%
+                    digital.
+                </p>
+                <button type="button" class="btn btn-success hero__button hero__button--principal">Pide tu
+                    crédito</button>
+                <button type="button" class="btn btn-secondary hero__button hero__button--secondary">Simula tu crédito
+                </button>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="products__header">
+                <h2 class="products__title">Conoce más productos</h2>
+            </div>
+
+            <div class="products__cards">
+                <div class="card product-card" style="width: 18rem;">
+                    <img src="/img/Cuenta Personal.png" class="card-img-top product-card__img" alt="Cuenta personal">
+                    <div class="card-body product-card__body">
+                        <h5 class="card-title product-card__title">Cuenta Personal</h5>
+                        <p class="card-text product-card__text">Administra tu dinero de forma simple y segura, con
+                            acceso a
+                            tus
+                            movimientos,
+                            pagos
+                            y
+                            transferencias.</p>
+                        <button type="button" class="btn btn-info product-card__button">Ver producto</button>
+                    </div>
+                </div>
+
+                <div class="card product-card" style="width: 18rem;">
+                    <img src="/img/Cuenta de Ahorro.png" class="card-img-top product-card__img" alt="Cuenta de Ahorro">
+                    <div class="card-body product-card__body">
+                        <h5 class="card-title product-card__title">Cuenta de Ahorro</h5>
+                        <p class="card-text product-card__text">Ahorra para tus objetivos con una cuenta flexible,
+                            segura y
+                            diseñada para hacer
+                            crecer
+                            tu dinero día a día.</p>
+                        <button type="button" class="btn btn-info product-card__button">Ver producto</button>
+                    </div>
+                </div>
+
+                <div class="card product-card" style="width: 18rem;">
+                    <img src="/img/Fondo de Inversión.png" class="card-img-top product-card__img"
+                        alt="Fondo de Inversión">
+                    <div class="card-body product-card__body">
+                        <h5 class="card-title product-card__title">Fondo de Inversión</h5>
+                        <p class="card-text product-card__text">Invierte con confianza y diversifica tu patrimonio
+                            mediante
+                            fondos adaptados a
+                            tus
+                            objetivos y perfil de riesgo.</p>
+                        <button type="button" class="btn btn-info product-card__button">Ver producto</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <div class="card text-center main-footer">
+        <div class="card-header main-footer__header">
+            Featured
+        </div>
+        <div class="card-body main-footer__body">
+            <h5 class="card-title main-footer__title">Special title treatment</h5>
+            <p class="card-text main-footer__text">With supporting text below as a natural lead-in to additional
+                content.</p>
+        </div>
+        <div class="card-footer text-muted main-footer__end-text">
+            2 days ago
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
