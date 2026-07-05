@@ -1,0 +1,3 @@
+Proyecto : SmartBudget 
+Autor: Lucas Carvacho
+Se utilizó la metodología BEM (Block, Element, Modifier) para estructurar las clases CSS de manera clara, escalable y fácil de mantener. Esta metodología permite identificar rápidamente la función de cada componente, evita conflictos entre estilos y facilita la reutilización del código. Además, las clases BEM se combinaron con las clases utilitarias de Bootstrap 5, manteniendo una separación clara entre los estilos personalizados y los proporcionados por el framework. Esta combinación permitió aprovechar las ventajas de Bootstrap sin generar conflictos de estilos, logrando un código más organizado, modular y sencillo de mantener a medida que el proyecto evoluciona.
